@@ -8,8 +8,8 @@ import { setContext } from "@apollo/client/link/context";
 import { useAuth0 } from "@auth0/auth0-react";
 import { createHttpLink } from '@apollo/client';
 
-const auth0Domain = "YOUR-AUTH0-DOMAIN"
-const auth0ClientId = "YOUR-AUTH0-CLIENT-ID"
+const auth0Domain = "dev-o8svgpck4irvjm1e.us.auth0.com"
+const auth0ClientId = "QrS4GkEcVwWRoF9EB9chivFDNl18jFKy"
 const auth0Audience = "example-blog-hasura"
 
 const hasuraUri = "http://localhost:8080/v1/graphql"

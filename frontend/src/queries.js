@@ -11,6 +11,9 @@ export const BLOG_POSTS = gql`
             content
             is_published
             user_id
+            user {
+                name
+            }
             activities {
                 id
                 date
