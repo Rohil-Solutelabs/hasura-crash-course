@@ -1,0 +1,5 @@
+- "!include public_blog_post.yaml"
+- "!include public_blog_post_activity.yaml"
+- "!include public_blog_post_activity_type.yaml"
+- "!include public_tags.yaml"
+- "!include public_user.yaml"

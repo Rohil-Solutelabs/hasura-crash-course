@@ -1,0 +1,1 @@
+DELETE FROM blog_post_activity_type WHERE name = 'updated'

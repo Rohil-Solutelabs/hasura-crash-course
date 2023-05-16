@@ -1,0 +1,17 @@
+table:
+  schema: public
+  name: tags
+insert_permissions:
+  - role: user
+    permission:
+      check: {}
+      columns:
+        - name
+      backend_only: false
+update_permissions:
+  - role: user
+    permission:
+      columns:
+        - name
+      filter: {}
+      check: null

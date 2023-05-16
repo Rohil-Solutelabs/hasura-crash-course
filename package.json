@@ -1,1 +1,5 @@
-{}
+{
+  "devDependencies": {
+    "hasura-cli": "^2.24.1"
+  }
+}
