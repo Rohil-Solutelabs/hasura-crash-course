@@ -1,1 +1,9 @@
-[]
+- name: blog_post_report
+  webhook: 'http://host.docker.internal:8000/blog_post_report '
+  schedule: 30 11 * * 1-6
+  include_in_metadata: true
+  payload:
+    args:
+      database: default
+      sql: INSERT INTO blog_post_reports (report_date, total_posts) VALUES (CURRENT_DATE, (SELECT COUNT(*) FROM blog_post))
+    type: run_sql
